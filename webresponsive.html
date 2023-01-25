@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>(New) Responsive Web Design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/css/stylestec.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="navbar">
+  <ul>
+  <hr>
+  <li><a class="nav-link" href="#jgv_001">HTML cat photo app</a></li>
+  <li><a class="nav-link" href="#jgv_002">Café Menú</a></li>
+  <li><a class="nav-link" href="#jgv_003">Set colored Makers</a></li>
+  <li><a class="nav-link" href="#jgv_004">Registratuib Form</a></li>
+  <li><a class="nav-link" href="#jgv_005">Survey Form</a></li>
+  <hr>
+  <li><a class="nav-link" href="#jgv_006">Rothko Painting</a></li>
+  <li><a class="nav-link" href="#jgv_007">Photo Gallery</a></li>
+  <li><a class="nav-link" href="#jgv_008">Nutrition Label</a></li>
+  <li><a class="nav-link" href="#jgv_009">Building Quiz</a></li>
+  <li><a class="nav-link" href="#jgv_010">Tribute Page</a></li>
+  <hr>
+  <li><a class="nav-link" href="#jgv_011">Balance Sheet</a></li>
+  <li><a class="nav-link" href="#jgv_012">Picasso Painting</a></li>
+  <li><a class="nav-link" href="#jgv_013">Piano</a></li>
+  <li><a class="nav-link" href="#jgv_014">Documentation Page</a></li>
+  <hr>
+  <li><a class="nav-link" href="#jgv_015">City Skyline</a></li>
+  <li><a class="nav-link" href="#jgv_016">Magazine</a></li>
+  <li><a class="nav-link" href="#jgv_017">Landing Page</a></li>
+  <hr>
+  <li><a class="nav-link" href="#jgv_018">Ferris Wheel</a></li>
+  <li><a class="nav-link" href="#jgv_019">Penguin</a></li>
+  <li><a class="nav-link" href="#jgv_020">Portafolio WebPage</a></li>
+  <hr>
+</ul>
+
+</nav>
+<main id="main-doc">
+  <header><h3>Portafolio WebPage</h3></header>
+  <section class="main-section" id="jgv_001">
+    <header>Instalacion WSL Debian</header>
+    <article>
+      <h3>Requisitos para instalar WSL2 en Windows:</h3>
+      <code>http://www.atopecode.net/instalar-linux-en-windows-por-medio-de-wsl2-windows-subsystem-for-linux/</code>
+      <iframe
+      id="video"
+      height="315"
+      src="https://www.youtube-nocookie.com/embed/gX-pjxH1gsA?rel=0&amp;controls=0&amp;showinfo=0"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+      <ol>
+        <li>
+          <p>Tu versión de Windows debe ser de <strong>64 bits</strong>.</p>
+        </li>
+        <li>
+          <p>Debes de tener <strong>Windows actualizado</strong>. Hay que tener una versión igual o superior a la
+            <em>1903</em>.<br>
+            Para ver la versión de Windows actual presiona la tecla <strong>'Windows + R'</strong> y teclea
+            <strong>'winver'</strong>.</p>
+        </li>
+        <li>
+          <p>Tu procesador debe <strong>soportar virtualización</strong> (en procesadores Intel <strong>VT-x</strong>
+            y en Amd <strong>AMD-V</strong>). Además debe de estar habilitada dicha virtualización en la Bios.<br>
+            Lo normal es que si tu procesador tiene menos de 6 años ya tenga virtualización y esté activada en la
+            Bios.</p>
+        </li>
+      </ol>
+      <p>Para comprobar si el requisito nº 3 es correcto puedes pulsar las teclas <strong>CTRL + Mayúsculas +
+          Esc</strong> y se abrirá el <em>Administrador de Tareas de Windows</em>.<br>
+        En la pestaña <em>Rendimiento</em> seleccionando la CPU se puede ver si la opción
+        <strong><em>Virtualization</em> está activada</strong>:</p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_002">
+    <header>Ohmy zsh </header>
+    <article>
+      <h3>Getting Started</h3>
+      <code>https://github.com/ohmyzsh/ohmyzsh</code>
+      <p>Prerequisites</p>
+      <p>
+      <ul>
+        <li>- A Unix-like operating system: macOS, Linux, BSD. On Windows: WSL2 is preferred, but cygwin or msys also
+          mostly work.</li>
+        <li>- [Zsh](https://www.zsh.org) should be installed (v4.3.9 or more recent is fine but we prefer 5.0.8 and
+          newer). If not pre-installed (run `zsh --version` to confirm), check the following wiki instructions here:
+          [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)</li>
+        <li>- `curl` or `wget` should be installed</li>
+        <li>- `git` should be installed (recommended v2.4.11 or higher)</li>
+      </ul>
+      <br>
+      <bol>Basic Installation</bol>
+      <br>
+      Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the
+      command-line with either `curl`, `wget` or another similar tool.
+      <br>
+      | Method | Command |
+      | :-------- | :------------------------------------------------------------------------------------------------
+      |
+      | **curl** | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+      | **wget** | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+      | **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+      |
+      <br>
+      _Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-zsh`. After installation, you can move the
+      configuration you want to preserve into the new `.zshrc`._
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_003">
+    <header>Configurando terminal</header>
+    <article>
+      <h3>Muchas consolas un solo terminal... </h3>
+      <code>https://terminaldelinux.com/terminal/wsl/configurar-windows-terminal/</code>
+      <p>Windows Terminal es una aplicación de terminal moderna para Windows 10, muy personalizable, rápida, agradable
+        y productiva. Mejora sustancialmente la pobre terminal que lleva años arrastrando (cmd), incorporando
+        características como soporte de pestañas, personalización de tipografía, efectos y también permite utilizar
+        diferentes shells, como por ejemplo, el Símbolo de sistema de Windows (cmd), PowerShell o incluso la nueva WSL
+        (Windows Subsystem for Linux), que es en la que nos enfocaremos en este artículo.</p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_004">
+    <header>Asignando alias en zsh</header>
+    <article>
+      <code>https://lignux.com/que-es-un-alias-como-anadirlos-y-usarlos-bash-y-zsh/</code>
+      <p>Un alias será un apodo que usaremos para invocar un comando. Un alias puede estar formado por una o varias
+        palabras, números o caracteres (normalmente es una combinación corta, lógica y/o fácil de recordar).</p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_005">
+    <header>Variables Status</header>
+    <p>
+      Estado del servicio postgresql.
+      <code>sudo service postgresql start</code>
+    </p>
+  </section>
+  <section class="main-section" id="jgv_006">
+    <header>Mi entorno </header>
+    <article>
+      <p>
+        C++
+        Fortran.
+        Java.
+        Perl.
+        PHP.
+        Python.
+        With the keyword var. For example, <code>hola mundo en todos los lenguajes</code>
+
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_007">
+    <header>Ruby on rails</header>
+    <article>
+      <code>https://rubyonrails.org/</code>
+      <p>Compress the complexity of modern web apps.
+        Learn just what you need to get started, then keep leveling up as you go. Ruby on Rails scales from HELLO
+        WORLD to IPO.</p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_008">
+    <header>Postgresql</header>
+    <article>
+      <code>https://www.postgresql.org/</code>
+      <p>
+      <h3>New to PostgreSQL?</h3>
+      PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development
+      that has earned it a strong reputation for reliability, feature robustness, and performance.<br>
+
+      There is a wealth of information to be found describing how to install and use PostgreSQL through the official
+      documentation. The open source community community provides many helpful places to become familiar with
+      PostgreSQL, discover how it works, and find career opportunities. Learn more on how to engage with the
+      community.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_009">
+    <header>Phyton</header>
+    <article>
+      <code>https://www.python.org/</code>
+      <p>Python is powerful... and fast;
+        plays well with others;
+        runs everywhere;
+        is friendly & easy to learn;
+        is Open.
+        These are some of the reasons people who use Python would rather not use anything else.</p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_010">
+    <header>Node</header>
+    <article>
+      <h3>Acerca de Node.js®</h3>
+      <code>https://nodejs.org/es/</code>
+      <p>Ideado como un entorno de ejecución de JavaScript orientado a eventos asíncronos, Node.js está diseñado para
+        crear aplicaciones network escalables. En el siguiente ejemplo de "hola mundo", pueden atenderse muchas
+        conexiones simultáneamente. Por cada conexión, se activa la devolución de llamada o callback, pero si no hay
+        trabajo que hacer, Node.js se dormirá.</p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_011">
+    <header>React</header>
+    <article>
+      <h3>Declarativo</h3>
+      <code>https://es.reactjs.org/</code>
+      <p>React te ayuda a crear interfaces de usuario interactivas de forma sencilla. Diseña vistas simples para cada
+        estado en tu aplicación, y React se encargará de actualizar y renderizar de manera eficiente los componentes
+        correctos cuando los datos cambien.
+
+        Las vistas declarativas hacen que tu código sea más predecible, por lo tanto, fácil de depurar.</p>
+      <p>Basado en componentes
+        Crea componentes encapsulados que manejen su propio estado, y conviértelos en interfaces de usuario complejas.
+
+        Ya que la lógica de los componentes está escrita en JavaScript y no en plantillas, puedes pasar datos de forma
+        sencilla a través de tu aplicación y mantener el estado fuera del DOM.</p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_012">
+    <header>Bootstrap</header>
+    <article>
+      <h3>Build fast, responsive sites with Bootstrap</h3>
+      <code>https://getbootstrap.com/</code>
+      <p>Install via package manager
+        Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed
+        installs don’t include documentation or our full build scripts. You can also use our npm template repo to
+        quickly generate a Bootstrap project via npm.</p>
+      <p>Include via CDN
+        When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr. See it in action with our
+        simple quick start, or browse the examples to jumpstart your next project. You can also choose to include
+        Popper and our JS separately.</p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_013">
+    <header>Angular</header>
+    <article>
+      <h3>
+        Deliver web apps
+        with confidence</h3>
+      <code>https://angular.io/</code>
+      <p>Introduction to the Angular docs
+        Angular is an application-design framework and development platform for creating efficient and sophisticated
+        single-page apps.
+        These Angular docs help you learn and use the Angular framework and development platform, from your first
+        application to optimizing complex single-page applications for enterprises. Tutorials and guides include
+        downloadable examples to help you start your projects.</p>
+      <p>What is Angular?
+        This topic can help you understand Angular: what Angular is, what advantages it provides, and what you might
+        expect as you start to build your applications.
+
+        Angular is a development platform, built on TypeScript. As a platform, Angular includes:
+
+        A component-based framework for building scalable web applications
+        A collection of well-integrated libraries that cover a wide variety of features, including routing, forms
+        management, client-server communication, and more
+        A suite of developer tools to help you develop, build, test, and update your code
+        With Angular, you're taking advantage of a platform that can scale from single-developer projects to
+        enterprise-level applications. Angular is designed to make updating as straightforward as possible, so take
+        advantage of the latest developments with minimal effort. Best of all, the Angular ecosystem consists of a
+        diverse group of over 1.7 million developers, library authors, and content creators.</p>
+    </article>
+  </section>
+  <section class="main-section" id="jgv_014">
+    <header>El Futuro es hoy y mañana</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a href="" target="_blank">Jorgitsss doc</a>
+          
+        </li>
+      </ul>
+    </article>
+  </section>
+  <footer>
+    <a href="https://github.com/jorgitsss">github </a> |
+    <a href="https://codepen.io/jorgitsss/pens/public">My codepen </a>
+  </footer>
+</main>
+</body>
+
+</html>
