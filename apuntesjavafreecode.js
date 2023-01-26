@@ -18,6 +18,7 @@ let fact = "is cool!"; // Change this line
 fact = "is awesome!";
 console.log(FCC, fact); // Change this line
 
+<<<<<<< HEAD
 /* Push ["dog", 3] onto the end of the myArray variable. */
 const arr1 = [1, 2, 3];
 arr1.push(4);
@@ -25,6 +26,8 @@ arr1.push(4);
 const arr2 = ["Stimpson", "J", "cat"];
 arr2.push(["happy", "joy"]);
 
+=======
+>>>>>>> 27cd9daeeb8205b4b3e68a7914a3ae664a341a87
 
 Code	Output
 \'	single quote
@@ -66,6 +69,7 @@ const lastName = "Lovelace";
 const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
 ============================================
 
+<<<<<<< HEAD
 myOutfit();myOutfit();
 const outerWear = "T-Shirt";
 
@@ -328,3 +332,5 @@ function testElseIf(val) {
 
 /*  */
 /*  */
+=======
+>>>>>>> 27cd9daeeb8205b4b3e68a7914a3ae664a341a87
